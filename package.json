@@ -1,0 +1,21 @@
+{
+  "name": "aula_node_api_server",
+  "version": "1.0.0",
+  "description": "Um projeto básico de uma API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Projeto",
+    "Básico",
+    "API",
+    "Server"
+  ],
+  "author": "Harley Macedo",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
