@@ -10,7 +10,7 @@ app.get('/api/:id', function(req, res) {
     let profs = [
         {nome: 'Harley', instituicao: 'IFCE', area: 'Desenvolvimento Web e Móvel',campus: 'Crato'},
         {nome: 'Ana', instituicao: 'IFCE', area: 'Computação Gráfica',campus: 'Crato'},
-        {nome: 'Talles', instituicao: 'IFCE', area: 'Estrutura de Dados e algoritmos',campus: 'Crato'},
+        {nome: 'Talles', instituicao: 'IFCE', area: 'Estrutura de Dados',campus: 'Crato'},
         {nome: 'Robson', instituicao: 'IFCE', area: 'Inteligência Artificial',campus: 'Crato'},
     ]
     let id = req.params.id
